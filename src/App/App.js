@@ -50,9 +50,11 @@ const handleClearComplete = (e) => {
             onChange={e => setPlan(e.target.value)}
             value={plan.text}
              ></textarea>
+             <div className='buttons'>
             <button onClick={handleSubmit}>Add Too Plan</button>
             <button onClick={handleClear}>Clear List</button>
             <button onClick={handleClearComplete}>Clear Completed</button>
+            </div>
           </form>
       
 

@@ -79,15 +79,8 @@ main {
   margin: 5px;
 }
 
-.InputField input {
-  width: 100%;
-  height: 20px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
+.InputField  {
+ display: block;
 }
 
 .tasklist {
@@ -101,3 +94,31 @@ main {
   position: relative;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+html {
+  font-size: 0.9em;
+}
+
+.tasklist {
+  width: 60%;
+  display: block;
+  position: relative;
+}
+
+.InputField {
+  width:100%;
+}
+
+.InputField button {
+  position: relative;
+  width: 100%;
+  font-size: 0.6em;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+}
+
+}
