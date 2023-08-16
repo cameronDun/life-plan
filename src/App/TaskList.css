@@ -50,10 +50,35 @@
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
 
+.Task-list {
+    overflow: auto;
+}
+
+
 .Task-list h2 {
     width: 80%;
     padding-top: 0.5em;
     padding-bottom: 0.5em ;
+}
+
+.renderedPost {
+    width: 30%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em ;
+    font-size: 0.8em;
+    height: 50%;
+}
+
+.renderedPost p {
+    margin: 0.4em;
+}
+
+.renderedPost h2 {
+    margin: 0.3em;
+}
+
+.button {
+    font-size: 0.6em;
 }
 
 
