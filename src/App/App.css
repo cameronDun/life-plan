@@ -1,0 +1,106 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('./photo-1475359524104-d101d02a042b.avif');
+}
+.App {
+  height: 100%;
+}
+h1 {
+  margin-top: 0;
+  padding: .77rem 0;
+  background-color: #07cd4c;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+  
+}
+
+
+h1 .highlight {
+  color: #050000;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 1.55rem;
+}
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #fff;
+ 
+}
+
+main {
+  display: inline-grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 20% 80%;
+  row-gap: 10px;
+}
+
+.InputField textarea {
+  width: 100%;
+  height: 60px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.InputField button {
+  cursor: pointer;
+  width: 8.11rem;
+  padding: .77rem 0;
+  border-radius: 54px;
+  background-color: #07cd4c;
+  text-align: center;
+  font-size: .833rem;
+  border: 0px;
+  color: #fff;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.InputField input {
+  width: 100%;
+  height: 20px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.tasklist {
+  display: block;
+  
+  
+}
+
+.weather {
+  float: right;
+  position: relative;
+}
+
+@media only screen and (max-width: 1020px) {
+
+}

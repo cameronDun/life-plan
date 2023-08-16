@@ -1,0 +1,49 @@
+.renderedPost {
+    width: 85%;
+    height: fit-content;
+    padding: 12px 20px;
+    background-color: #07cd4c;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.renderedPost p {
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    width: 400px;
+    word-wrap: break-word;
+}
+
+.button {
+    cursor: pointer;
+    width: fit-content;
+    padding:6px;
+    border-radius: 15px;
+    background-color: #047a2d;
+    text-align: center;
+    font-size: 15px;
+    border: 0px;
+    color: #fff;
+    margin: 5px;
+}
+
+.Task-list ul {
+    list-style-type: none;
+    position: absolute;
+    overflow: auto;
+
+    height: 50%;
+    margin-top: 2px;
+}
+
+.Task-list h2 {
+    width: 94.5%;
+    padding: 20px;
+    background-color: #07cd4c;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5px;
+   
+}
