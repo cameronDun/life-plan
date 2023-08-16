@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/life-plan/static/css/main.457b38da.css",
+    "main.css": "/life-plan/static/css/main.63b66f56.css",
     "main.js": "/life-plan/static/js/main.c6414d4c.js",
     "static/js/787.d1187cdb.chunk.js": "/life-plan/static/js/787.d1187cdb.chunk.js",
     "static/media/photo-1475359524104-d101d02a042b.avif": "/life-plan/static/media/photo-1475359524104-d101d02a042b.dccafd33c80b65420abd.avif",
     "index.html": "/life-plan/index.html",
-    "main.457b38da.css.map": "/life-plan/static/css/main.457b38da.css.map",
+    "main.63b66f56.css.map": "/life-plan/static/css/main.63b66f56.css.map",
     "main.c6414d4c.js.map": "/life-plan/static/js/main.c6414d4c.js.map",
     "787.d1187cdb.chunk.js.map": "/life-plan/static/js/787.d1187cdb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.457b38da.css",
+    "static/css/main.63b66f56.css",
     "static/js/main.c6414d4c.js"
   ]
 }
