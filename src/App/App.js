@@ -59,7 +59,6 @@ const handleClearComplete = (e) => {
       
 
       </div>
-
       <div className='Weather'>
       <Weather/>
       </div>
@@ -68,6 +67,9 @@ const handleClearComplete = (e) => {
       <div className='taskList'>
       <TaskList />
       </div>
+
+
+
 
       </main>
       
