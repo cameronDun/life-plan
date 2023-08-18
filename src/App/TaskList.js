@@ -39,7 +39,7 @@ const handleComplete =(plan) => {
 
   return (
     <section className="Task-list">
-      <h2>Plans</h2>
+      <h2>Plans List</h2>
       <ul>
         {renderedPosts}
       </ul>
